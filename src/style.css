@@ -1,0 +1,44 @@
+:root{
+    font-size: 16px;
+}
+
+
+*{
+    box-sizing: border-box;
+
+}
+
+body{
+    font-size: 16px;
+    display: flex;
+    margin: 0%;
+    width: 100%;
+    
+   
+
+    
+
+}
+
+.container{
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    padding-left: 400px;
+    padding-top: 50px;
+    background-color: antiquewhite;
+    height: 46rem;
+ 
+}
+
+.imagem{
+width: 200px;
+border-radius: 10px;
+}
+
+.descricao{
+    background-color: #fff;
+    height: 304px;
+    border-radius: 10px;
+    padding: 10px;
+}
