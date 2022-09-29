@@ -14,8 +14,8 @@ body{
 }
 .container__texto{
     display: grid;
-    height: 520px;
-    width: 350px;
+    height: 650px;
+    width: 420px;
     position: absolute;
     left: 41vw;
     top: 17vh;
@@ -27,8 +27,8 @@ body{
     width: 100vw;
 }
 .container__texto__image{
-    width: 350px;
-    height: 160px;
+    width: 100%;
+    height: 90%;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
 }
@@ -40,9 +40,69 @@ body{
     margin-bottom: 0;
 }
 .container__texto__1{
-    width:270px;
-
+    word-break: 38ch;
     font-family: 'Red Hat Display', sans-serif;
     font-weight: 500;
     color: #7280A7;
+}
+.controle-texto{
+    display: flex;
+    width: 100%;
+    height: 72%;
+    justify-content: center;
+}
+.controle-texto-1{
+    width: 80%;
+    text-align: center;
+}
+.container__plano{
+    display: grid;
+    height: 100%;
+    align-items: center;
+    justify-items:center ;
+    width: 80%;
+    grid-template-columns: 1fr 2fr 1fr;
+    border-radius: 10px;
+    background-color: #F7F5FF;
+}
+
+.image__musica{
+       justify-self: end;
+       size: 16px;
+}
+.plano__valor{
+    line-height: 7px;
+    justify-self: start;
+    margin-left: 15px;
+}
+.plano__valor__anual{
+    font-weight: 900;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.plano__valor__valor{
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+    color: #7280A7;
+}
+.container__plano a{
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+}
+.btn{
+    width: 80%;
+    border: none;
+    background-color: #3829E0;
+    border-radius: 10px;
+    color:#F7F5FF ;
+    font-weight: 700;
+    margin-top: 25px;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.cancelar{
+    font-weight: 900;
+    font-family: 'Red Hat Display', sans-serif;
+    color: #7280A7;
+    margin-top: 35px;
+    font-size: 12px;
 }
